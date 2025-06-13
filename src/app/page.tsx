@@ -360,7 +360,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
             transition={{ duration: 0.3 }}
-            className="fixed right-10 -translate-x-1/2 bottom-8 z-50"
+            className="fixed left-10 -translate-x-1/2 bottom-8 z-50"
           >
             <button
               aria-label={isAtTop ? 'Scroll Down' : 'Scroll Up'}
