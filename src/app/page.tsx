@@ -171,11 +171,11 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="hidden md:flex space-x-8"
             >
-              <button onClick={() => scrollToSection('hero')} className="text-gray-300 hover:text-blue-400 transition-colors">Home</button>
-              <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-blue-400 transition-colors">About</button>
-              <button onClick={() => scrollToSection('projects')} className="text-gray-300 hover:text-blue-400 transition-colors">Projects</button>
-              <button onClick={() => scrollToSection('skills')} className="text-gray-300 hover:text-blue-400 transition-colors">Skills</button>
-              <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-blue-400 transition-colors">Contact</button>
+              <button onClick={() => scrollToSection('hero')} className="text-gray-300 hover:cursor-pointer hover:text-blue-400 transition-colors">Home</button>
+              <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:cursor-pointer hover:text-blue-400 transition-colors">About</button>
+              <button onClick={() => scrollToSection('projects')} className="text-gray-300 hover:cursor-pointer hover:text-blue-400 transition-colors">Projects</button>
+              <button onClick={() => scrollToSection('skills')} className="text-gray-300 hover:cursor-pointer hover:text-blue-400 transition-colors">Skills</button>
+              <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:cursor-pointer hover:text-blue-400 transition-colors">Contact</button>
             </motion.div>
           </div>
         </div>
